@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+</head>
+<body>
+<table style="width:100%">
+  <tr>
+    <th>ID</th>
+    <th>First Name</th>
+    <th>Email</th> 
+    <th>Mobile Number</th>
+    <th>Company Name</th>
+    <th>About Company</th>
+    <th>Ph.No</th>
+    <th>Store Name</th>
+    <th>Cancellation Policy</th>
+    <th>Company URL</th>
+    <th>Company Address 1</th>
+    <th>Company Address 2</th>
+  </tr>
+

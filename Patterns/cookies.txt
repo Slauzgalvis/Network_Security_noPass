@@ -1,0 +1,5 @@
+# Cookies for domains related to fxwebsolution.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt http://www.fxwebsolution.com/demo/arthi/multivendor/profile_view.php?id=68
+#
+www.fxwebsolution.com	FALSE	/	FALSE	0	PHPSESSID	b9ae07e1c29a74d86aa13f37a96c1133
