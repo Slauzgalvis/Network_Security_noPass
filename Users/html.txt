@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	    <meta name="keywords" content=" ">
+	    <meta name="robots" content="all">
+
+	    <title>Social Ecommerece Script</title>
+
+	    <!-- Bootstrap Core CSS -->
+	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	    
+	    <!-- Customizable CSS -->
+	    <link rel="stylesheet" href="assets/css/main.css">
+	    <link rel="stylesheet" href="assets/css/blue.css">
+	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/owl.transitions.css">
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/rateit.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+
+		
+	<!--swal-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+	
+		
+		<!-- Icons/Glyphs -->
+		<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+        <!-- Fonts --> 
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+	</head>
+    <body class="cnt-home">
+		<!-- ============================================== HEADER ============================================== -->
+<header class="header-style-1">
+
+	<!-- ============================================== TOP MENU ============================================== -->
+<div class="top-bar animate-dropdown">
+	<div class="container">
+		<div class="header-top-inner">
+			<div class="cnt-account">
+				<ul class="list-unstyled">
+				
+									<li><a href="sign-in.php"><i class="icon fa fa-lock"></i>Login/Sign-up</a></li>
+								</ul>
+			</div><!-- /.cnt-account -->
+
+			<div class="clearfix"></div>
+		</div><!-- /.header-top-inner -->
+	</div><!-- /.container -->
+</div><!-- /.header-top -->
+
+	<div class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
+
+<div class="logo">
+	<a href="index.php">
+		
+		<img src="admin/uploads/general_setting/logo.png.png" alt="">
+
+	</a>
+</div><!-- /.logo -->
+				</div><!-- /.logo-holder -->
+
+				<div class="col-xs-12 col-sm-12 col-md-7 top-search-holder">
+					<!-- /.contact-row -->
+
+<div class="search-area">
+    <form class="ttl_search" method="GET" action="category.php" >
+        <div class="control-group">
+
+            <div class="col-xs-12">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel" style="min-width:30px;">
+                    <select class="form-control" name="searchmain" style="min-width:100px;">
+					<option value="" disabled selected>Filter</option>
+					                         <option value="1">Men</option>
+							                      <option value="43">women</option>
+							                      <option value="70">home appliances</option>
+							                      <option value="76">Software</option>
+												</select>
+					
+					<!--<button type="button" class="btn ttl_btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Select Type</span> <span class="caret"></span>
+                    </button>
+					
+							
+                    <ul class="dropdown-menu" role="menu">
+					                       <li><a href="#">Men</a></li>
+					                        <li><a href="#">women</a></li>
+					                        <li><a href="#">home appliances</a></li>
+					                        <li><a href="#">Software</a></li>
+					                       
+                    </ul>-->
+						
+                </div>
+				
+                <!--<input type="hidden" name="search_param" value="" id="search_param1">-->	
+                <input type="text" class="form-control" name="searchcat" placeholder="Search term...">
+                <span class="input-group-btn">
+                    <!--<button type="button" class="btn btn-default"  name="searchlist"><span class="glyphicon glyphicon-search"></span></button>-->
+					<input type="submit" class="btn btn-default" value="Search">
+                </span>
+				
+            </div>
+        </div>   
+
+        </div>
+    </form>
+</div><!-- /.search-area -->
+			</div><!-- /.top-search-holder -->
+			<div class="col-xs-12 col-sm-12 col-md-2 animate-dropdown top-cart-row">
+
+<div class="dropdown dropdown-cart">
+		<a href="sign-in.php" class="dropdown-toggle lnk-cart" >
+<div class="items-cart-inner">
+            <div class="basket">
+					<i class="glyphicon glyphicon-shopping-cart"></i>
+				</div>				
+				<div class="total-price-basket">
+					<span class="lbl">My Cart</span>
+					<span class="total-price">
+						<span class="sign"></span><span class="value"></span>
+					</span>
+				</div>				
+			
+		    </div></a>
+</div>
+
+</div>
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+
+	</div><!-- /.main-header -->
+
+
+
+<div class="header-nav animate-dropdown">
+    <div class="container">
+        <div class="yamm navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="nav-bg-class">
+                <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
+	<div class="nav-outer">
+		<ul class="nav navbar-nav">
+			<li class="active dropdown yamm-fw">
+				<a href="index.php"  class="dropdown-toggle" >Home</a>
+				
+			</li>
+													<li class=" dropdown yamm mega-menu">
+				<a href="index.php" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Men</a>
+                <ul class="dropdown-menu container">
+					<li>
+               			<div class="yamm-content ">
+				<div class="row">                
+                   <!--<div class="col-xs-12 col-sm-6 col-md-2 col-menu">-->				   
+				   <div class="col-xs-12 col-sm-6 col-md-2 col-menu">                        <h2 class="title">Footwear</h2>
+						                        <ul class="links">
+                            <li><a href="category.php?chid1=6">shoes</a></li>
+                        </ul>
+							                        <ul class="links">
+                            <li><a href="category.php?chid1=45">Slippers</a></li>
+                        </ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-2 col-menu">                        <h2 class="title">Watches</h2>
+						                        <ul class="links">
+                            <li><a href="category.php?chid1=49">Sonata</a></li>
+                        </ul>
+							                        <ul class="links">
+                            <li><a href="category.php?chid1=46">Fastrack</a></li>
+                        </ul>
+							                        <ul class="links">
+                            <li><a href="category.php?chid1=48">Titan</a></li>
+                        </ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-2 col-menu">                        <h2 class="title">Dresses</h2>
+						                        <ul class="links">
+                            <li><a href="category.php?chid1=36">ethnic wear</a></li>
+                        </ul>
+							                        <ul class="links">
+                            <li><a href="category.php?chid1=37">party wear</a></li>
+                        </
