@@ -31,3 +31,7 @@ sudo tar xvjf $PHANTOM_JS.tar.bz2
 sudo mv $PHANTOM_JS /usr/local/share
 sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
 
+#install phyton3 selenium
+sudo apt-get upgrade
+sudo pip3 install selenium
+

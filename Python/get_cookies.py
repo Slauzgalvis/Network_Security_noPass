@@ -21,5 +21,6 @@ login_session()
 
 cookies = driver.get_cookies()[0]
 f = open("cookies.txt","w+")
-f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}'.format(str(cookies['domain']), str(cookies['httponly']), str(cookies['path']), str(cookies['secure']), '0', str(cookies['name']), str(cookies['value'])))
+f.write(cookies['value'])
 f.close()
+
