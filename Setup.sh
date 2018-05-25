@@ -34,4 +34,6 @@ sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
 #install phyton3 selenium
 sudo apt-get upgrade
 sudo pip3 install selenium
+#install curl
+sudo apt-get install curl
 
